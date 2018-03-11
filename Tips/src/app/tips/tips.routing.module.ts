@@ -6,10 +6,10 @@ import { CompleteSearchComponent } from './pages/complete-search/complete-search
 
 const APP_ROUTES: Routes = [
     {path: '', component: SimpleSearchComponent},
-    {path: 'tips/pages', component: CompleteSearchComponent}
+   // {path: 'tips/pages', component: CompleteSearchComponent}
 ];
 
-NgModule({
+@NgModule({
     imports: [RouterModule.forRoot(APP_ROUTES)],
     exports: [RouterModule]
 })
