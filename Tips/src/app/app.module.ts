@@ -1,9 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+
 import { PagesModule } from './tips/pages/pages.module';
-import { TipsRoutingModule } from './tips/tips.routing.module';
+import { TipsRoutingModule } from './tips/tips.routing.module'
 
 import { AppComponent } from './app.component';
+
 
 
 @NgModule({
@@ -13,7 +15,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     PagesModule,
-    TipsRoutingModule 
+    TipsRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
