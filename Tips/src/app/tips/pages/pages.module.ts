@@ -6,6 +6,11 @@ import { SimpleSearchComponent } from './simple-search/simple-search.component';
   imports: [
     CommonModule
   ],
-  declarations: [ SimpleSearchComponent]
+  declarations: [ 
+    SimpleSearchComponent],
+
+  exports:[
+    SimpleSearchComponent
+  ]
 })
 export class PagesModule { }
