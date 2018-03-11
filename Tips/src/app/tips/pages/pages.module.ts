@@ -1,16 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SimpleSearchComponent } from './simple-search/simple-search.component';
+import { CompleteSearchComponent } from './complete-search/complete-search.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
   declarations: [ 
-    SimpleSearchComponent],
+    SimpleSearchComponent, CompleteSearchComponent],
 
   exports:[
-    SimpleSearchComponent
+    SimpleSearchComponent,
+    CompleteSearchComponent
   ]
 })
 export class PagesModule { }
