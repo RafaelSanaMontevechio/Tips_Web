@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 import { SimpleSearchComponent } from './simple-search/simple-search.component';
 import { CompleteSearchComponent } from './complete-search/complete-search.component';
 
@@ -8,7 +9,8 @@ import { CompleteSearchComponent } from './complete-search/complete-search.compo
     CommonModule
   ],
   declarations: [ 
-    SimpleSearchComponent, CompleteSearchComponent],
+    SimpleSearchComponent, 
+    CompleteSearchComponent],
 
   exports:[
     SimpleSearchComponent,
