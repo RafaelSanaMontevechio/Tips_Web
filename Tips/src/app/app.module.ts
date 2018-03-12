@@ -1,11 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { PagesModule } from './tips/pages/pages.module';
-import { TipsRoutingModule } from './tips/tips.routing.module';
-
 import { AppComponent } from './app.component';
-
+import { PagesModule } from './tips/search/pages.module';
+import { TipsRoutingModule } from './tips/tips.routing.module';
 
 
 @NgModule({
