@@ -6,7 +6,7 @@ import { CompleteSearchComponent } from './search/complete-search/complete-searc
 
 const APP_ROUTES: Routes = [
     {path: '', component: SimpleSearchComponent},
-    //{path: 'tips/pages', component: CompleteSearchComponent}
+    {path: 'tips/search', component: CompleteSearchComponent}
 ];
 
 @NgModule({
