@@ -17,4 +17,4 @@ import { CompleteSearchComponent } from './complete-search/complete-search.compo
     CompleteSearchComponent
   ]
 })
-export class PagesModule { }
+export class SearchModule { }

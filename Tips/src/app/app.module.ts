@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { PagesModule } from './tips/search/pages.module';
+import { SearchModule } from './tips/search/search.module';
 import { AppRoutingModule } from './app.routing.module';
 
 
@@ -13,7 +13,7 @@ import { AppRoutingModule } from './app.routing.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PagesModule
+    SearchModule
     
   ],
   providers: [],

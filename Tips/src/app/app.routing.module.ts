@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { Routes,  RouterModule } from '@angular/router';
 
 const APP_ROUTES: Routes = [
-    {path: 'search', loadChildren: './tips/simple-search' }
+    {path: './tips/search', loadChildren: './tips/search/simple-search/simple-search.component' }
 ]
 
-NgModule ({
+@NgModule ({
     imports: [RouterModule.forRoot(APP_ROUTES)],
     exports: [RouterModule]
 })
