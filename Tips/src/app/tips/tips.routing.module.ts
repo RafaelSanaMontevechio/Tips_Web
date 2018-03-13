@@ -5,8 +5,7 @@ import { SimpleSearchComponent } from './search/simple-search/simple-search.comp
 import { CompleteSearchComponent } from './search/complete-search/complete-search.component';
 
 const APP_ROUTES: Routes = [
-    {path: '', component: SimpleSearchComponent},
-    {path: './search', component: CompleteSearchComponent}
+    {path: '', component: SimpleSearchComponent}, 
 ];
 
 @NgModule({
