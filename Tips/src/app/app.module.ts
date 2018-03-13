@@ -2,8 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { SearchModule } from './tips/search/search.module';
 import { AppRoutingModule } from './app.routing.module';
+import { SearchModule } from './tips/search/search.module';
+import { ModalsModule } from './tips/modals/modals.module';
 
 
 @NgModule({
@@ -13,8 +14,8 @@ import { AppRoutingModule } from './app.routing.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SearchModule
-    
+    SearchModule,
+    ModalsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
