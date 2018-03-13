@@ -3,10 +3,12 @@ import { CommonModule } from '@angular/common';
 
 import { SimpleSearchComponent } from './simple-search/simple-search.component';
 import { CompleteSearchComponent } from './complete-search/complete-search.component';
+import { SearchRoutingModule } from './search.routing.module';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    SearchRoutingModule
   ],
   declarations: [ 
     SimpleSearchComponent, 
@@ -17,4 +19,4 @@ import { CompleteSearchComponent } from './complete-search/complete-search.compo
     CompleteSearchComponent
   ]
 })
-export class PagesModule { }
+export class SearchModule { }

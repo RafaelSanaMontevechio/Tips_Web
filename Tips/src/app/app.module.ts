@@ -2,8 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { PagesModule } from './tips/search/pages.module';
-import { TipsRoutingModule } from './tips/tips.routing.module';
+import { AppRoutingModule } from './app.routing.module';
+import { SearchModule } from './tips/search/search.module';
+import { ModalsModule } from './tips/modals/modals.module';
 
 
 @NgModule({
@@ -12,10 +13,11 @@ import { TipsRoutingModule } from './tips/tips.routing.module';
   ],
   imports: [
     BrowserModule,
-    PagesModule,
-    TipsRoutingModule
+    AppRoutingModule,
+    SearchModule,
+    ModalsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
