@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
 import { SearchModule } from './tips/search/search.module';
-import { ModalsModule } from './tips/modals/modals.module';
+import { MainModule } from './tips/main/main.module';
 
 
 @NgModule({
@@ -14,8 +14,8 @@ import { ModalsModule } from './tips/modals/modals.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SearchModule,
-    ModalsModule
+    MainModule,
+    SearchModule
   ],
   providers: [],
   bootstrap: [AppComponent]
