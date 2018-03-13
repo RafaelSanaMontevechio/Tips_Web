@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { PagesModule } from './tips/search/pages.module';
-import { TipsRoutingModule } from './tips/tips.routing.module';
+import { AppRoutingModule } from './app.routing.module';
 
 
 @NgModule({
@@ -12,10 +12,11 @@ import { TipsRoutingModule } from './tips/tips.routing.module';
   ],
   imports: [
     BrowserModule,
-    PagesModule,
-    TipsRoutingModule
+    AppRoutingModule,
+    PagesModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

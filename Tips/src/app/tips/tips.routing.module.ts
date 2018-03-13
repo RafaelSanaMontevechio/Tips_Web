@@ -1,4 +1,4 @@
-import { NgModule, ModuleWithProviders } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { SimpleSearchComponent } from './search/simple-search/simple-search.component';
@@ -6,11 +6,11 @@ import { CompleteSearchComponent } from './search/complete-search/complete-searc
 
 const APP_ROUTES: Routes = [
     {path: '', component: SimpleSearchComponent},
-    {path: 'tips/search', component: CompleteSearchComponent}
+    {path: './search', component: CompleteSearchComponent}
 ];
 
 @NgModule({
-    imports: [RouterModule.forRoot(APP_ROUTES)],
+    imports: [RouterModule.forChild(APP_ROUTES)],
     exports: [RouterModule]
 })
 
