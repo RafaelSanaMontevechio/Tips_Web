@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 
 const MODAL_ROUTES: Routes = [
-    {path: './search', component: LoginComponent }
+    {path: './modals', component: LoginComponent }
 ]
 
 @NgModule ({
