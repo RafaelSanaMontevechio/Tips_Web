@@ -6,6 +6,10 @@ import { FooterComponent } from './footer/footer.component';
 import { MainRoutingModule } from './main.routing.module';
 
 @NgModule({
+  declarations: [
+    NavbarComponent,
+    FooterComponent
+  ],
   imports: [
     CommonModule,
     MainRoutingModule
@@ -14,11 +18,6 @@ import { MainRoutingModule } from './main.routing.module';
     CommonModule,
     NavbarComponent,
     FooterComponent
-  ],
-  declarations: [
-    NavbarComponent, 
-    FooterComponent
   ]
 })
-
 export class MainModule { }

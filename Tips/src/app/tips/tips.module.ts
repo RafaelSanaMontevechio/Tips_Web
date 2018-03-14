@@ -11,4 +11,6 @@ import { CompleteSearchComponent } from './search/complete-search/complete-searc
   ],
   declarations: []
 })
-export class TipsModule {}
+export class TipsModule {
+
+}

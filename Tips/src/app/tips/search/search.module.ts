@@ -12,8 +12,8 @@ import { SearchRoutingModule } from './search.routing.module';
   ],
   declarations: [ 
     SimpleSearchComponent, 
-    CompleteSearchComponent],
-
+    CompleteSearchComponent
+  ],
   exports:[
     SimpleSearchComponent,
     CompleteSearchComponent
