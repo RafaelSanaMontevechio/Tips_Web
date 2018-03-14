@@ -8,10 +8,10 @@ const MAIN_ROUTES: Routes = [
 ];
 
 @NgModule ({
-    imports:[
+    imports: [
         RouterModule.forChild(MAIN_ROUTES)
     ],
-    exports:[
+    exports: [
         RouterModule
     ]
 })

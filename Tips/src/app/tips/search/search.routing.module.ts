@@ -10,10 +10,10 @@ const SEARCH_ROUTES: Routes = [
 ];
 
 @NgModule({
-    imports:[
+    imports: [
         RouterModule.forChild(SEARCH_ROUTES)
     ],
-    exports:[
+    exports: [
         RouterModule
     ]
 })

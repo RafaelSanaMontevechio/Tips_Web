@@ -10,11 +10,11 @@ import { SearchRoutingModule } from './search.routing.module';
     CommonModule,
     SearchRoutingModule
   ],
-  declarations: [ 
-    SimpleSearchComponent, 
+    declarations: [
+    SimpleSearchComponent,
     CompleteSearchComponent
   ],
-  exports:[
+  exports: [
     SimpleSearchComponent,
     CompleteSearchComponent
   ]
