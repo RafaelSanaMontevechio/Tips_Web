@@ -33,7 +33,7 @@
 <section class="login_modal">
 
   <!-- Modal logar -->
-  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true"> -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -60,9 +60,10 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            <button type="submit" class="btn btn-primary">Entrar</button>
+            <button type="submit" class="btn btn-primary" data-dismiss="modal"
+              routerLinkActive="rota-ativa" routerLink="../search/complete-search">Entrar</button>
           </div>
-        </form>
+        </form> 
       </div>
     </div>
   </div>
