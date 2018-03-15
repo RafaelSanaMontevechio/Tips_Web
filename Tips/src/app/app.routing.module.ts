@@ -3,11 +3,12 @@ import { Routes,  RouterModule } from '@angular/router';
 
 const APP_ROUTES: Routes = [
     {path: './tips/search', loadChildren: './tips/search/simple-search/simple-search.component' }
-]
+];
 
 @NgModule ({
     imports: [RouterModule.forRoot(APP_ROUTES)],
     exports: [RouterModule]
 })
 
-export class AppRoutingModule {}
+export class AppRoutingModule {
+}

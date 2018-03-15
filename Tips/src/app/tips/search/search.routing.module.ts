@@ -7,14 +7,16 @@ import { CompleteSearchComponent } from './complete-search/complete-search.compo
 const SEARCH_ROUTES: Routes = [
     { path: '', component: SimpleSearchComponent },
     { path: './complete-Search', component: CompleteSearchComponent }
-]
+];
 
 @NgModule({
-    imports:[
+    imports: [
         RouterModule.forChild(SEARCH_ROUTES)
     ],
-    exports:[
+    exports: [
         RouterModule
     ]
 })
-export class SearchRoutingModule {}
+export class SearchRoutingModule {
+
+}

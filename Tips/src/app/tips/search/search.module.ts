@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { SimpleSearchComponent } from './simple-search/simple-search.component';
 import { CompleteSearchComponent } from './complete-search/complete-search.component';
+import { ResultComponent } from './result/result.component';
 import { SearchRoutingModule } from './search.routing.module';
 
 @NgModule({
@@ -10,13 +11,15 @@ import { SearchRoutingModule } from './search.routing.module';
     CommonModule,
     SearchRoutingModule
   ],
-  declarations: [ 
-    SimpleSearchComponent, 
-    CompleteSearchComponent],
-
-  exports:[
+    declarations: [
     SimpleSearchComponent,
-    CompleteSearchComponent
+    CompleteSearchComponent,
+    ResultComponent
+  ],
+  exports: [
+    SimpleSearchComponent,
+    CompleteSearchComponent,
+    ResultComponent
   ]
 })
 export class SearchModule { }
