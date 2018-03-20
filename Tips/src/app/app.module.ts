@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
 import { SearchModule } from './tips/search/search.module';
 import { MainModule } from './tips/main/main.module';
+import { AuthService } from './tips/main/navbar/auth.service';
 
 
 @NgModule({
@@ -17,7 +18,7 @@ import { MainModule } from './tips/main/main.module';
     MainModule,
     SearchModule
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
