@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { SimpleSearchComponent } from './simple-search/simple-search.component';
 import { CompleteSearchComponent } from './complete-search/complete-search.component';
-import { ResultComponent } from './result/result.component';
+import { ResultComponent } from './result-search/result.component';
+import { InformationSearchComponent } from './information-search/information-search.component';
 import { SearchRoutingModule } from './search.routing.module';
 
 @NgModule({
@@ -14,12 +15,14 @@ import { SearchRoutingModule } from './search.routing.module';
     declarations: [
     SimpleSearchComponent,
     CompleteSearchComponent,
-    ResultComponent
+    ResultComponent,
+    InformationSearchComponent
   ],
   exports: [
     SimpleSearchComponent,
     CompleteSearchComponent,
-    ResultComponent
+    ResultComponent,
+    InformationSearchComponent
   ]
 })
 export class SearchModule { }
