@@ -10,9 +10,7 @@ const SEARCH_ROUTES: Routes = [
     { path: '', component: SimpleSearchComponent },
     { path: 'complete-Search', component: CompleteSearchComponent },
     { path: 'result-search', component: ResultComponent },
-    { path: 'result-search', redirectTo: '/result-search', pathMatch: 'full' },
-    { path: 'information-search', component: InformationSearchComponent },
-    { path: 'information-search', redirectTo: '/information-search', pathMatch: 'full' }
+    { path: 'information-search', component: InformationSearchComponent }
 ];
 
 @NgModule({
