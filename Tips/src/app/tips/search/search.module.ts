@@ -15,12 +15,14 @@ import { SearchRoutingModule } from './search.routing.module';
     declarations: [
     SimpleSearchComponent,
     CompleteSearchComponent,
-    ResultComponent
+    ResultComponent,
+    InformationSearchComponent
   ],
   exports: [
     SimpleSearchComponent,
     CompleteSearchComponent,
-    ResultComponent
+    ResultComponent,
+    InformationSearchComponent
   ]
 })
 export class SearchModule { }
