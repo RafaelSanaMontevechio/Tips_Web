@@ -22,6 +22,7 @@ import { InformationSearchComponent } from './information-search/information-sea
     InformationSearchComponent
   ],
   exports: [
+    MainNavbarComponent,
     CompleteSearchComponent,
     ResultComponent,
     InformationSearchComponent
