@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { SimpleSearchComponent } from './simple-search/simple-search.component';
 
-import { CompleteSearchComponent } from '../search/complete-search/complete-search.component';
+
 
 const MAIN_ROUTES: Routes = [
-    {path: 'search/complete-search', component: CompleteSearchComponent}
+    {path: '', component: SimpleSearchComponent}
 ];
 
 @NgModule ({
@@ -16,7 +17,7 @@ const MAIN_ROUTES: Routes = [
     ]
 })
 
-export class MainRoutingModule {}
+export class HomeRoutingModule {}
 
 
 

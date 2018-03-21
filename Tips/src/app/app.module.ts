@@ -3,20 +3,23 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
-import { SearchModule } from './tips/search/search.module';
-import { MainModule } from './tips/main/main.module';
-import { AuthService } from './tips/main/navbar/auth.service';
+import { HomeModule } from './home/home.module';
+import { SearchModule } from './search/search.module';
+import { FooterModule } from './footer/footer.module';
+import { AuthService } from './home/navbar/auth.service';
+
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MainModule,
-    SearchModule
+    HomeModule,
+    SearchModule,
+    FooterModule
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]

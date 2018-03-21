@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes,  RouterModule } from '@angular/router';
+import { SimpleSearchComponent } from './home/simple-search/simple-search.component';
 
 const APP_ROUTES: Routes = [
-    {path: './search', loadChildren: './tips/search/simple-search/simple-search.component' }
+    //{ path: '', component: SimpleSearchComponent }
+     {path: 'home', loadChildren: 'app/home/home.module#HomeModule' }
 ];
 
 @NgModule ({

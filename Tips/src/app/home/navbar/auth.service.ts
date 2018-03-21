@@ -12,7 +12,7 @@ export class AuthService {
 
     fazerLogin(user: User){
 
-      if(user.email === 'user@email.com' && user.pass === '123456'){
+      if(user.email === 'user@email.com' && user.pass === '123'){
 
         this.userAutenticado = true;
         this.router.navigate(['../search/complete-search'])

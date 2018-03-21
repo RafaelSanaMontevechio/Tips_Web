@@ -1,11 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { SimpleSearchComponent } from './simple-search/simple-search.component';
+
+import { SearchRoutingModule } from './search.routing.module';
+import { MainNavbarComponent } from './main-navbar/main-navbar.component';
 import { CompleteSearchComponent } from './complete-search/complete-search.component';
 import { ResultComponent } from './result-search/result.component';
 import { InformationSearchComponent } from './information-search/information-search.component';
-import { SearchRoutingModule } from './search.routing.module';
+
+
 
 @NgModule({
   imports: [
@@ -13,13 +16,12 @@ import { SearchRoutingModule } from './search.routing.module';
     SearchRoutingModule
   ],
     declarations: [
-    SimpleSearchComponent,
+    MainNavbarComponent,
     CompleteSearchComponent,
     ResultComponent,
     InformationSearchComponent
   ],
   exports: [
-    SimpleSearchComponent,
     CompleteSearchComponent,
     ResultComponent,
     InformationSearchComponent

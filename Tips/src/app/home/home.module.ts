@@ -1,23 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { HomeRoutingModule } from './home.routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
-import { MainRoutingModule } from './main.routing.module';
+import { SimpleSearchComponent } from './simple-search/simple-search.component';
 
 @NgModule({
   declarations: [
     NavbarComponent,
-    FooterComponent
+    SimpleSearchComponent
   ],
   imports: [
     CommonModule,
-    MainRoutingModule
+    HomeRoutingModule
   ],
   exports: [
     CommonModule,
     NavbarComponent,
-    FooterComponent
+    SimpleSearchComponent,
   ]
 })
-export class MainModule { }
+export class HomeModule { }
