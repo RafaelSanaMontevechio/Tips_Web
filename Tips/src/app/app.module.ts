@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app.routing.module';
 import { HomeModule } from './home/home.module';
 import { SearchModule } from './search/search.module';
 import { FooterModule } from './footer/footer.module';
-import { AuthService } from './home/navbar/auth.service';
+
 
 
 
@@ -21,7 +21,7 @@ import { AuthService } from './home/navbar/auth.service';
     SearchModule,
     FooterModule
   ],
-  providers: [AuthService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

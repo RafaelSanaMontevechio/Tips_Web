@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { AuthService } from './auth.service';
-import { User } from './user';
+
 
 @Component({
   selector: 'app-navbar',
@@ -10,16 +9,14 @@ import { User } from './user';
 })
 export class NavbarComponent implements OnInit {
 
-  private user: User = new User();
-
-  constructor(private authService: AuthService) { }
+  constructor() { }
 
   ngOnInit() {
   }
 
-  fazerLogin(){
-    console.log(this.user);
-    this.authService.fazerLogin(this.user);
-  }
+  // fazerLogin(){
+  //   console.log(this.user);
+  //   this.authService.fazerLogin(this.user);
+  // }
 
 }
