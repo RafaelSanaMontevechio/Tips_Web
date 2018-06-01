@@ -114,6 +114,27 @@
               <label for="exampleInputPassword1">Digite sua senha</label>
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
             </div>
+            <div class="form-group text-center">
+              <p>
+                Entre com:
+              </p>
+              <div class="row justify-content-md-center">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn google">
+                    <input type="radio" name="options" id="option1" autocomplete="off">
+                    <i class="fab fa-google-plus-g"></i>
+                  </label>
+                  <label class="btn face">
+                    <input type="radio" name="options" id="option2" autocomplete="off">
+                    <i class="fab fa-facebook-f"></i>
+                  </label>
+                  <label class="btn twitter">
+                    <input type="radio" name="options" id="option3" autocomplete="off">
+                    <i class="fab fa-twitter"></i>
+                  </label>
+                </div>
+              </div>
+            </div>
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Quero ficar logado</label>
@@ -184,7 +205,7 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="singinModal">Faça seu Login</h5>
+          <h5 class="modal-title" id="singinModal">Crie já o seu cadastro!</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -193,42 +214,55 @@
           <div class="modal-body">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputEmail4">E-mail</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                <label for="inputEmail4">Nome</label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Digite seu nome">
               </div>
               <div class="form-group col-md-6">
-                <label for="inputPassword4">Senha</label>
-                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                <label for="inputPassword4">Sobrenome</label>
+                <input type="text" class="form-control" id="inputPassword4" placeholder="Digite seu sobrenome">
+              </div>
+            </div>  
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">E-mail</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Entre com seu e-mail">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Confirme seu E-mail</label>
+                <input type="email" class="form-control" id="inputPassword4" placeholder="Repita seu e-mail">
               </div>
             </div>
             <div class="form-row">
-              <div class="form-group col-md-4">
-                <label for="inputState">Estado</label>
-                <select id="inputState" class="form-control">
-                  <option selected>Escolha...</option>
-                  <option>...</option>
-                </select>
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Senha</label>
+                <input type="password" class="form-control" id="inputEmail4" placeholder="Escolha uma senha">
               </div>
               <div class="form-group col-md-6">
-                <label for="inputCity">Cidade</label>
-                <input type="text" class="form-control" id="inputCity">
-              </div>
-              <div class="form-group col-md-2">
-                <label for="inputZip">CEP</label>
-                <input type="text" class="form-control" id="inputZip">
+                <label for="inputPassword4">Confirme sua senha</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Digite sua senha novamente">
               </div>
             </div>
-            <div class="form-group">
+            <div class="form-group text-center">
               <p>
-                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                Entre com:
               </p>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Aceito os termos de uso
-                </label>
+              <div class="row justify-content-md-center">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn google">
+                    <input type="radio" name="options" id="option1" autocomplete="off">
+                    <i class="fab fa-google-plus-g"></i>
+                  </label>
+                  <label class="btn face">
+                    <input type="radio" name="options" id="option2" autocomplete="off">
+                    <i class="fab fa-facebook-f"></i>
+                  </label>
+                  <label class="btn twitter">
+                    <input type="radio" name="options" id="option3" autocomplete="off">
+                    <i class="fab fa-twitter"></i>
+                  </label>
+                </div>
               </div>
-            </div>
+            </div>            
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
